@@ -19,3 +19,9 @@ const lettersCounter = arr => {
 
 const obj1 = lettersCounter(array);
 console.log(obj1);
+
+
+// extra
+const obj1Val = Object.values(obj1);
+const maxObj1Val = Math.max(...obj1Val);
+console.log(maxObj1Val);
